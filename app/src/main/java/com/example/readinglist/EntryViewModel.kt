@@ -27,13 +27,7 @@ class EntryViewModel (application: Application) : AndroidViewModel(application) 
     }
 
     fun getEntries():LiveData<List<Entry>>{
-        when(currentMode) {
-            R.id.twitter -> entriesToDisplay.value = twitterEntries.value
-            R.id.articles -> entriesToDisplay.value = articlesEntries.value
-            R.id.notes -> entriesToDisplay.value = notesEntries.value
-            else -> entriesToDisplay.value = allEntries.value
-        }
-        return entriesToDisplay
+        return allEntries
     }
 
     fun showTweets() {currentMode = R.id.twitter}

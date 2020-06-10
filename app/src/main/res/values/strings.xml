@@ -4,7 +4,7 @@
     <string name="add_button">Add</string>
     <string name="empty_not_saved">Try again with non-empty value.</string>
     <string-array name="entry_types">
-        <item>TWITTER</item>
+        <item>TWEET</item>
         <item>ARTICLE</item>
         <item>NOTE</item>
     </string-array>
