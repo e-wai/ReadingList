@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ReadingList</string>
-    <string name="hint_word">Word...</string>
+    <string name="hint_word">Type here!</string>
     <string name="add_button">Add</string>
     <string name="empty_not_saved">Try again with non-empty value.</string>
     <string-array name="entry_types">
@@ -8,4 +8,8 @@
         <item>ARTICLE</item>
         <item>NOTE</item>
     </string-array>
+    <string name="twitter">Twitter</string>
+    <string name="notes">Notes</string>
+    <string name="articles">Articles</string>
+    <string name="all">All</string>
 </resources>

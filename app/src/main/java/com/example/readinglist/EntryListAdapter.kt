@@ -36,11 +36,6 @@ class EntryListAdapter(context: Context, onCardClickListener: OnCardClickListene
     override fun onBindViewHolder(holder: EntryViewHolder, position: Int) {
         val current = entries[position]
         holder.entryItemView.text = current.value
-        when(current.type) {
-            "TWITTER" -> holder.entryItemView.setBackgroundResource(R.color.twitterMiddleground)
-            "ARTICLE" -> holder.entryItemView.setBackgroundResource(R.color.articleMiddleground)
-            "NOTE" -> holder.entryItemView.setBackgroundResource(R.color.lessDarkMiddleground)
-        }
     }
 
     internal fun setEntries(entries: List<Entry>) {

@@ -22,7 +22,8 @@
         android:textSize="18sp"
         android:textColor="@color/almostWhite"
         android:shadowColor="@color/almostWhite"
-        android:textColorHint="@color/almostWhite"/>
+        android:textColorHint="@color/almostWhite"
+        android:maxLines="10"/>
 
     <Button
         android:id="@+id/add_button"

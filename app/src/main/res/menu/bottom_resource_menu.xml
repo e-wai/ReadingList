@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all"
+        android:enabled="true"
+        android:icon="@drawable/ic_view_headline_black_24dp"
+        android:title="@string/all"/>
+    <item
+        android:id="@+id/twitter"
+        android:enabled="true"
+        android:icon="@drawable/ic_people_outline_black_24dp"
+        android:title="@string/twitter"/>
+    <item
+        android:id="@+id/notes"
+        android:enabled="true"
+        android:icon="@drawable/ic_turned_in_not_black_24dp"
+        android:title="@string/notes"/>
+    <item
+        android:id="@+id/articles"
+        android:enabled="true"
+        android:icon="@drawable/ic_web_asset_black_24dp"
+        android:title="@string/articles"/>
+</menu>

@@ -6,6 +6,7 @@
     <color name="buttonLabel">#FFFFFF</color>
     <color name="darkBackground">#121212</color>
     <color name="lessDarkMiddleground">#333333</color>
+    <color name="notesMiddleground">#222222</color>
     <color name="twitterMiddleground">#009999</color>
     <color name="articleMiddleground">#990033</color>
     <color name="almostWhite">#DDDDDD</color>
