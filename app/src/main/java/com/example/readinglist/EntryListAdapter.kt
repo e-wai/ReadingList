@@ -1,6 +1,7 @@
 package com.example.readinglist
 
 import android.content.Context
+import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,7 +13,7 @@ import com.example.readinglist.model.Entry
 class EntryListAdapter(context: Context, onCardClickListener: OnCardClickListener) : RecyclerView.Adapter<EntryListAdapter.EntryViewHolder>() {
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
-    private var entries = emptyList<Entry>() // Cached copy of words
+    private var entries = emptyList<Entry>()
     var onCardClickListener: OnCardClickListener = onCardClickListener
 
     val context: Context = context
@@ -21,6 +22,7 @@ class EntryListAdapter(context: Context, onCardClickListener: OnCardClickListene
         val entryItemView: TextView = itemView.findViewById(R.id.textView)
         init {
             entryItemView.setOnClickListener(this)
+            entryItemView.movementMethod = LinkMovementMethod.getInstance()
         }
 
         override fun onClick(view: View) {
