@@ -3,7 +3,9 @@
 
 ## Some screenshots!
 + Main screen: 
+
 ![Main Screen](https://github.com/e-wai/ReadingList/blob/master/mainScreen.png)
 
 + Add screen:
+
 ![Add Screen](https://github.com/e-wai/ReadingList/blob/master/addScreen.png)
